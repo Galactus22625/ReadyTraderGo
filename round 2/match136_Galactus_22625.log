@@ -1,0 +1,13 @@
+2023-03-20 00:47:12,894 [INFO   ] [APP] autotrader started with arguments={-c}
+2023-03-20 00:47:12,894 [INFO   ] [APP] configuration={"Execution":{"Host":"172.24.0.2","Port":12345},"Information":{"Type":"mmap","Name":"/info/info.dat"},"TeamName":"Galactus_22625","Secret":"2rrBCQdKgNCq_vykLjc6FA"}
+2023-03-20 00:47:12,896 [INFO   ] [CONNECTION] fd=7 connection established: peer=172.24.0.2:12345
+2023-03-20 00:47:31,050 [WARNING] [TRADER] error with order 0: out-of-order client_order_id in cancel message
+2023-03-20 00:47:31,050 [WARNING] [TRADER] error with order 0: out-of-order client_order_id in cancel message
+2023-03-20 01:02:30,861 [ERROR  ] [CONNECTION] fd=7 connection lost:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/asyncio/selector_events.py", line 995, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+2023-03-20 01:02:30,862 [INFO   ] [APP] closing event loop
+2023-03-20 01:02:30,862 [INFO   ] [RECEIVER] connection lost
